@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NestedFormComponent } from './component/nested-form/nested-form.component';
 import { PaginationComponent } from './component/pagination/pagination.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { ObservableComponent } from './component/observable/observable.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     FileUploadComponent,
     NestedFormComponent,
     PaginationComponent,
+    ObservableComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FileUploadComponent } from './component/file-upload/file-upload.component';
 import { FormsComponent } from './component/forms/forms.component';
 import { NestedFormComponent } from './component/nested-form/nested-form.component';
+import { ObservableComponent } from './component/observable/observable.component';
 import { PaginationComponent } from './component/pagination/pagination.component';
 import { ReactiveComponent } from './component/reactive/reactive.component';
 
@@ -27,6 +28,10 @@ const routes: Routes = [
 {
   path: 'nested-form',
   component: NestedFormComponent
+},
+{
+  path: 'observable',
+  component: ObservableComponent
 }
 ];
 
